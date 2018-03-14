@@ -1,0 +1,73 @@
+#user_center{
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    background: url('../img/kk.jpg') ;
+}
+#user_center_1{
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    left: 25%;
+    top: 5%;
+    background: white;
+}
+.left{
+    height: 250px;
+    width: 210px;
+    background: #ececec;
+    margin-top: 100px;
+    margin-left: 30px;
+    float: left;
+}
+.left ul{
+    margin: 0;
+    padding: 0;
+}
+.left ul li{
+    list-style: none;
+    padding:0;
+    width: 210px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.left ul li:hover{
+    cursor: pointer;
+    background: #cccccc;
+}
+.left ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.right{
+    margin-left: 50px;
+    float: left;
+    margin-top: 100px;
+}
+.right p{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.right p input[type=button]{
+    background: black;
+    color: white;
+    border: none;
+    width: auto;
+    height: 32px
+}
+.right p input[type=button]:hover{
+    cursor:pointer;
+}
+.alert_photo{
+    cursor:pointer;
+    color: grey;
+    margin-left: 25px;
+}
+input:focus{
+    outline: none;
+}
+
+
+

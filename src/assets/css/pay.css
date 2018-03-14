@@ -1,0 +1,38 @@
+.pay1{
+    width: 100%;
+    margin-left: 50px;
+    border-bottom: 1px dotted darkgray;
+}
+.pay1 p{
+    margin-bottom: 20px;
+    color: gray;
+    font-size: 13px;
+}
+#contain{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+.pay1 h1{
+    color: #000000;
+    opacity: 0.7;
+}
+.pay1 p:nth-child(2n){
+    margin-top: 50px;
+}
+
+.pay2{
+    width: 100%;
+    margin-left: 50px;
+   margin-bottom: 150px;
+}
+.pay2 p{
+    margin-bottom: 20px;
+    color: gray;
+    font-size: 13px;
+}
+.pay2 h1{
+    color: #000000;
+    opacity: 0.7;
+}

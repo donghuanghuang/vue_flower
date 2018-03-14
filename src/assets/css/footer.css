@@ -1,0 +1,48 @@
+.footer{
+    overflow: hidden;
+    width: 1300px;
+    height: 680px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer1{
+    margin-left: 10px;
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 50px;
+    margin-top: 50px;
+}
+.footer1 ul{
+    width: 100%;
+}
+.footer1 ul li{
+    width: 18%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    margin-right: 70px;
+}
+.footer1 ul li div{
+    color: gray;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.footer1 ul li:nth-child(2){
+    width: 14%;
+}
+.footer1_1{
+    margin-bottom: 10px;
+}
+.footer3{
+    width: 100%;
+    text-align: center;
+    color: gray;
+}
+
+
+
+
+

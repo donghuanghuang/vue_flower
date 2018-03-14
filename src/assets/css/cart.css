@@ -1,0 +1,71 @@
+.cart_text{
+    width: 100%;
+    text-align: center;
+    opacity: 0.8;
+}
+.cart_show{
+    width: 1000px;
+    margin: 0 auto;
+}
+#items>tr>td{
+    height: 50px;
+    /*line-height: 50px;*/
+    vertical-align: middle;
+}
+#items>tr>td>input[type=number]{
+    width: 63px;
+    height: 26px;
+    text-align: center;
+}
+.total{
+    margin-right: 80px;
+}
+.fr{
+    float: right;
+    font-size: 24px;
+}
+thead>tr>th,tbody>tr>td{
+    text-align: center;
+}
+#img1{
+    position: relative;
+    top: -1px;
+    height: 28px;
+}
+.reduce{
+    border: 1px solid #bbb;
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background: #e8e8e8;
+    text-align: center;
+    line-height: 26px;
+    cursor: pointer;
+    vertical-align: middle;
+    position: relative;
+    left:5px;
+}
+.add{
+    position: relative;
+    right: 5px;
+    vertical-align: middle;
+    border: 1px solid #bbb;
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background: #e8e8e8;
+    text-align: center;
+    line-height: 26px;
+    cursor: pointer;
+}
+#items>tr>td.count>input[type=text]{
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 26px;
+}
+.fr{
+    float: right;
+    margin-right: 5px;
+}

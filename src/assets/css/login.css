@@ -1,0 +1,66 @@
+#login{
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    background: url('../img/kk.jpg') ;
+}
+#login div{
+    margin-top: 20px;
+    text-align: center;
+    color: grey;
+    font-size: 13px;
+}
+
+#login_message{
+    width: 480px;
+    height: 450px;
+    background: white;
+    position: absolute;
+    left: 30%;
+    top:10%;
+}
+.login_checkbox{
+    margin-left: 70px;
+}
+.login_checkbox>input[type=checkbox]{
+    position: relative;
+    top: 1px;
+    right: 2px;
+}
+.login_button{
+    margin-right: 50%;
+}
+#login_message div  a{
+    text-decoration: none;
+    color: black;
+}
+.login_button input[type=button]{
+    cursor: pointer;
+    border: none;
+}
+.login_button input[type=button]:hover{
+    color: dimgrey;
+}
+.forget_password{
+    margin-left: 40%;
+}
+.forget_password a:hover{
+    color: blue;
+}
+.read p:nth-child(1){
+   margin-right: 60%;
+}
+.read p:nth-child(3){
+    margin-right: 40%;
+}
+.read p:nth-child(5){
+    margin-left: 7%;
+}
+.read p{
+    margin-bottom: 20px;
+}
+
+
+
+
+

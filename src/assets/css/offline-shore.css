@@ -1,0 +1,45 @@
+.body1{
+    margin-left: 150px;
+    margin-top: 80px;
+    float: left;
+    margin-right: 50px;
+}
+.body1{
+    font-size: 14px;
+}
+.body1 p{
+    color: grey;
+}
+.body1_1{
+    margin-bottom: 70px;
+}
+.body1_2 input[type=text]{
+    width: 300px;
+    height: 35px;
+    background: rgb(242, 242, 242);
+    border: none;
+}
+.body1_2 p .body1_email{
+    width: 603px;
+    height: 35px;
+}
+.body1_2 p textarea{
+    background: rgb(242, 242, 242);
+    border: none;
+}
+.body1_2  input[type=button]{
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    background: black;
+    border: none;
+    color: white;
+}
+.right_map{
+    float: left;
+    margin-top: 50px;
+    width: 400px;
+    height: 500px;
+    background: rgb(242, 242, 242);
+}
+

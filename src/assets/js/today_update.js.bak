@@ -1,0 +1,44 @@
+/**
+ * Created by Administrator on 2017/12/29.
+ */
+/**
+ * Created by Administrator on 2017/12/29.
+ */
+(()=>{
+    ajax({
+        type:"get",
+        url:"php/index.php",
+        datatype:"json"
+    }).then(result=>{
+		console.log(result[0]);
+        var html=""
+        html+=`
+<ul>
+<li>
+<p><a href=""><img src="img/004.jpg" alt=""></a></p>
+<p>ֲ�ﻨ��004</p>
+<p>?5700</p>
+</li>
+<li>
+<p><a href="shopping-details-003.html"><img src="img/p.jpg" alt=""></a></p>
+<p>ֲ�ﻨ��003</p>
+<p>?5400</p>
+</li>
+<li>
+<p><a href="shopping-details-002.html"><img src="img/w.jpg" alt=""></a></p>
+<p>ֲ�ﻨ��002</p>
+<p>?5600</p>
+</li>
+<li>
+<p><a href="shopping-details-001.html"><img src="img/q.jpg" alt=""></a></p>
+<p>ֲ�ﻨ��001</p>
+<p>?6000</p>
+</li>
+</ul>
+`
+document.getElementById("today").innerHTML=html;
+})
+})()
+
+
+

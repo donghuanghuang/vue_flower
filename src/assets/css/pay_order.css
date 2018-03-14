@@ -1,0 +1,74 @@
+
+.pay_nav_1{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.pay_nav_1 li{
+    list-style: none;
+    width: 310px;
+    height: 40px;
+    float: left;
+    padding:0;
+    background: lightgray;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    color: ghostwhite;
+}
+.mes{
+    margin-left: 16%;
+    font-size: 14px;
+    margin-top: 50px;
+    color: gray;
+}
+.color_1{
+    background:#0AA1ED !important;
+}
+.pay_nav_2{
+    width: 1000px;
+    margin: 0 auto;
+}
+.pay_nav_2 input{
+    position: relative;
+    bottom: 20px;
+}
+.pay_nav_2 img{
+    margin-left: 3px;
+}
+.pay_nav_2 li{
+    list-style: none;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 45px;
+}
+.pay_nav_3{
+    clear: both;
+    width: 950px;
+    height: 50px;
+    background: lightgray;
+    margin-left: 16%;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    box-shadow: 1px 1px 6px 0 #ccc ;
+    line-height: 50px;
+    color: gray;
+    font-size: 14px;
+}
+.pay_nav_3 input[type=button]{
+    float: right;
+    width: 86px;
+    height: 30px;
+    background:#ffb20f;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.pay_nav_3 input[type=button]:hover{
+    cursor: pointer;
+}
+

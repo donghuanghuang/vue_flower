@@ -1,0 +1,81 @@
+#register{
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    background: url('../img/kk.jpg') ;
+}
+
+#register div{
+    margin-top: 30px;
+    color: grey;
+    font-size: 13px;
+    margin-left: 50px;
+}
+#register div input{
+    width: 200px;
+    height: 22px;
+
+}
+.common{
+    width: 480px;
+    height: 30px;
+    /*border: 1px solid darkgray;*/
+}
+#register_message{
+    width: 530px;
+    height: 600px;
+    background:white;
+    position: absolute;
+    left: 30%;
+    top:5%;
+    clear: both;
+}
+.register_button{
+    margin-right: 50%;
+}
+#register_message div  a{
+    text-decoration: none;
+    color: black;
+}
+.register_button input[type=button]{
+    margin-right: 20px;
+    cursor: pointer;
+    border: none;
+}
+.register_button input[type=button]:hover{
+    color: dimgrey;
+}
+.read p{
+    margin-bottom: 20px;
+}
+.vali_info{/* 页面初始，验证消息不显示 */
+    display:none;
+}
+.vali_success,.vali_fail{
+    background-repeat:no-repeat;
+    display:inline;
+}
+/* 验证消息：验证通过时的样式 */
+.vali_success{
+    background-image:url("../img/register/ok.png");
+    width:0px;
+    height:20px;
+    overflow:hidden;
+    padding-left: 20px;
+    background-position:bottom center;
+}
+
+/* 验证消息：验证失败时的样式 */
+.vali_fail{
+    width: 80px;
+    height: 15px;
+    background-image:url("../img/register/err.png");
+    background-color:#ddd;
+    color:Red;
+    padding-left: 20px;
+
+}
+
+
+
+

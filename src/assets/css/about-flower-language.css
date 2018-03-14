@@ -1,0 +1,34 @@
+.message p{
+    color: darkgray;
+    font-size: 14px;
+}
+.message h2{
+    opacity: 0.7;
+}
+.img_right{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.img_right span{
+    margin-right: 50px;
+}
+.message{
+    margin-top: 30px;
+    border-bottom: 1px dotted darkgray;
+    margin-bottom: 50px;
+    margin-left: 5%;
+}
+.left{
+    float: left;
+}
+.all{
+    float: left;
+}
+.img_right img{
+    transition: all .5s linear;
+}
+.img_right img:hover{
+    transform: scale(1.1,1.1);
+}
+
+

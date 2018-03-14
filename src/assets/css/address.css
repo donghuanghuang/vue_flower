@@ -1,0 +1,8 @@
+#img1{
+    position: relative;
+    top: -1px;
+    height: 28px;
+}
+body{
+    overflow-x: hidden;
+}

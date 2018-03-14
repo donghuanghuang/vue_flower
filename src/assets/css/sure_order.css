@@ -1,0 +1,23 @@
+.pay_nav_1{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.pay_nav_1 li{
+    list-style: none;
+    width: 310px;
+    height: 40px;
+    float: left;
+    padding:0;
+    background: lightgray;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    color: ghostwhite;
+}
+.color_1{
+    background:#0AA1ED !important;
+}
+

@@ -1,0 +1,156 @@
+#showflower>li{
+    height: 430px;
+    margin-right: 50px;
+    text-align: center;
+    float: left;
+    list-style: none;
+    margin-bottom: 50px;
+    border: 1px solid #ddd;
+}
+#showflower li p{
+    color: darkgray;
+}
+
+#showflower  li:hover{
+    cursor: pointer;
+}
+#showflower{
+    width: 100%;
+    overflow-x: hidden;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    float: left;
+}
+
+#all{
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+
+.fixed{
+    width: 54px;
+    height: 162px;
+    background: black;
+    position: fixed;
+    display: block;
+    z-index: 15;
+    margin-left: 96%;
+    /*margin-top: 100px;*/
+}
+.fixed ul{
+    margin:0;
+    padding: 0;
+}
+.fixed li:first-child{
+    width: 54px;
+    height: 54px;
+    background: url("../img/right.png") -28px 2060px;
+    list-style: none;
+}
+.fixed li:nth-child(2){
+    width: 54px;
+    height: 54px;
+    background: url("../img/right.png") -28px 2800px;
+    list-style: none;
+}
+.fixed li:nth-child(3){
+    width: 54px;
+    height: 54px;
+    list-style: none;
+    filter: brightness(1.8);
+}
+.fixed img{
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+
+/*页码的样式*/
+
+#pages{
+    padding:0px 20px;
+    text-align:right;
+    height:40px;
+    line-height:40px;
+}
+#pages a{
+    padding:4px 10px;
+    border:1px solid #ddd;
+    border-radius:4px;
+    color:#0aa1ed;
+}
+#pages a.current{
+    border-color:#0aa1ed;
+    background:#0aa1ed;
+    color:#fff;
+}
+#pages a.disabled{
+    color:#bfbfbf;
+    background:#f2f2f2;
+    border:1px solid #bfbfbf;
+}
+#showflower p span:nth-child(1){
+    width: 24px;
+    height: 22px;
+    background:linear-gradient(to bottom,#F4F4F4,#b3b3b3);
+    color: whitesmoke;
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    top: 4px;
+    line-height: 22px;
+    font-size: 30px;
+}
+#showflower p span:nth-child(3){
+    width: 24px;
+    height: 22px;
+    background:linear-gradient(to bottom,#F4F4F4,#b3b3b3);
+    color: whitesmoke;
+    display: inline-block;
+    line-height: 22px;
+    font-size: 30px;
+    position: relative;
+    top: 4px;
+}
+#showflower p input[type=text]{
+    width: 24px;
+    height: 16px;
+    position: relative;
+    left: 5px;
+    bottom: 1px;
+    text-align: center;
+    border: 0;
+}
+#showflower .addCart{
+    line-height: 30px;
+    display: inline-block;
+    width: 100px;
+    height: 32px;
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(to bottom,#27b1f6,#00a1ed);
+    border-radius: 4px;
+}
+.show_text{
+    width: 100%;
+    height: 60px;
+    background: #E4E4E4;
+    text-align: center;
+    line-height: 60px;
+    opacity: 0.8;
+}
+.notice-board{
+    width: 300px;
+    height: 500px;
+    border: 1px solid gray;
+    float: left;
+    margin-top: 50px;
+}
+
+
+
+
